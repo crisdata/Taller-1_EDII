@@ -111,8 +111,8 @@ int main()
 								system("CLS");
 								dibujarRectangulo(22,76);
 								
-								int num ;
-								int suma; 
+								int num = 1 ;
+								int suma = 0; 
 								
 								while (num <= 100)  //Ciclo para sumar 1 al 100
 								{
@@ -629,7 +629,7 @@ int main()
 				{
 					system("CLS");
 					dibujarRectangulo(22,76);
-					gotoxy(27,7);printf ("ESTRUCTURAS");
+					gotoxy(27,7);printf ("MATRICES");
 					gotoxy(17,9);printf ("1. Matriz de 3X3  e imprimir la suma de sus posiciones: ");
 					gotoxy(17,10);printf("2. Matriz de 3X3 llenarla por el Sistema: ");
 					gotoxy(17,11);printf("3. Matriz de 3X3 llenarla el Sistem con Numeros Primos: ");
